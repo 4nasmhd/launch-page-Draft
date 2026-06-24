@@ -1,0 +1,19 @@
+{
+  "name": "ProLedge — Launching Soon",
+  "short_name": "ProLedge",
+  "description": "Beyond Average. Built Better. World-class finance & accounting education, launching soon.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

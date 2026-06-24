@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://proledge.io/launching-soon/sitemap.xml
