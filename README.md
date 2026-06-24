@@ -23,15 +23,17 @@ launching-soon/
 ├── robots.txt            # crawler directives
 ├── sitemap.xml           # sitemap
 ├── serve.ps1             # local static dev server (port 5501)
+├── google-apps-script.gs # Apps Script for the waitlist → Google Sheet (reference; not served)
 ├── README.md
 └── assets/
     ├── favicon.svg        # brand favicon (chart mark)
     └── images/
-        ├── hero-1.jpg     # aerial city skyline
-        ├── hero-2.jpg     # corporate finance scene
-        ├── hero-3.jpg     # skyscrapers (also OG/social preview image)
-        ├── hero-4.jpg     # finance / currency tech
-        └── proledge_converted.svg   # footer logo
+        ├── walk.png       # poster figure — the walking gentleman (REQUIRED)
+        ├── proledge_converted.svg   # footer logo (REQUIRED)
+        ├── hero-1.jpg     # legacy / unused (old slideshow)
+        ├── hero-2.jpg     # legacy / unused
+        ├── hero-3.jpg     # legacy / unused
+        └── hero-4.jpg     # legacy / unused
 ```
 
 ## Run locally
