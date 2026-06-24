@@ -603,12 +603,26 @@
       .poster { padding-top: 84px; }
       .poster-vert { display: none; }
       .poster-line { display: none; }
-      .poster-stage { height: min(64vh, 540px); }
-      .poster-word { font-size: clamp(96px, 40vw, 220px); }
-      .poster-q { max-width: 150px; font-size: 9.5px; }
-      .poster-q.tl { top: 4%; left: 4%; }
-      .poster-q.br { bottom: 4%; right: 4%; }
-      .poster-q .big { font-size: 22px; }
+      .poster-stage { height: min(60vh, 480px); }
+      .poster-figure { height: 90%; }
+      /* smaller giant word so it never overflows the viewport edges */
+      .poster-word { font-size: clamp(80px, 34vw, 200px); }
+      .poster-q { max-width: 46%; font-size: 9.5px; }
+      .poster-q.tl { top: 2%; left: 3%; }
+      .poster-q.br { bottom: 3%; right: 3%; max-width: 54%; }
+      .poster-q .big { font-size: clamp(18px, 6vw, 26px); }
+    }
+
+    /* very small phones — tighten everything so nothing clips or overlaps */
+    @media (max-width: 480px) {
+      .poster-stage { height: min(54vh, 420px); }
+      .poster-figure { height: 84%; }
+      .poster-word { font-size: clamp(64px, 30vw, 150px); }
+      .poster-q { max-width: 50%; font-size: 8.5px; line-height: 1.55; }
+      .poster-q.tl { top: 1.5%; left: 3%; }
+      .poster-q.br { bottom: 2%; right: 3%; max-width: 56%; }
+      .poster-q .big { font-size: clamp(15px, 5.4vw, 20px); margin-top: 8px; }
+      .scroll-prompt { bottom: 14px; }
     }
 
     /* ── QUOTES ── */
